@@ -6,6 +6,7 @@ import java.io.IOException;
 import org.bukkit.configuration.InvalidConfigurationException;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import it.plugandcree.langutils.commands.MainCommand;
 import it.plugandcree.langutils.config.CustomConfig;
 
 public class LangUtils extends JavaPlugin {
@@ -18,6 +19,8 @@ public class LangUtils extends JavaPlugin {
 		instance = this;
 		
 		setCentralizedLangConfig(createConfigFile("lang.yml"));
+		
+		new MainCommand().register(this);
 	}
 	
 	private CustomConfig createConfigFile(String name) {
