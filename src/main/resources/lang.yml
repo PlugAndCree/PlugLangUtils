@@ -1,0 +1,8 @@
+messages:
+    prefix: "&7"
+    no-perm: "Not enough permissions."
+    no-args: "No arguments provided"
+    reload-complete: "Reload completed"
+    
+    help: "All commands: "
+    help-format: "&7- &a%s &8(&r%s&8)"
