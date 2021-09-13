@@ -1,0 +1,9 @@
+name: ${project.name}
+version: ${project.version}
+api-version: 1.15
+
+main: it.plugandcree.langutils.LangUtils
+
+commands:
+    langutils:
+        description: main cmd
