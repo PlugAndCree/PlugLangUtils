@@ -39,7 +39,7 @@ public class LangUtils extends JavaPlugin {
 		}
 	}
 	
-	public LangUtils getInstance() {
+	public static LangUtils getInstance() {
 		return instance;
 	}
 
